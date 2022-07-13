@@ -67,3 +67,15 @@ auto_dat[-c(10:85),] %>%
 
 # less cylinders more mileage, less displacement more mileage etc.
 auto_dat %>% plot
+
+
+# boston dataset
+library(MASS)
+Boston
+
+# of rows and columns
+Boston %>% str
+
+
+Boston %>% plot
+?Boston
